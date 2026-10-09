@@ -1,0 +1,16 @@
+version: 1
+reports:
+    - id: quicksort
+      path: reports/quicksort/report.html
+      published_at: 2026-10-09T16:20:37.605493Z
+      started_at: 2026-10-09T15:23:46.31651+01:00
+      baseline:
+        ref: path:./integration/testdata/quicksort/baseline
+        commit: 44fde8f967c3da04c8357b6a062a996286af360b
+        branch: main
+        dirty: true
+      comparison:
+        ref: path:./integration/testdata/quicksort/comparison
+        commit: 44fde8f967c3da04c8357b6a062a996286af360b
+        branch: main
+        dirty: true
