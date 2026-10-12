@@ -1,5 +1,17 @@
 version: 1
 reports:
+    - id: 20261012-161309.144251000Z-benchmarking-gecko
+      path: reports/20261012-161309.144251000Z-benchmarking-gecko/report.html
+      published_at: 2026-10-12T16:15:04.292937Z
+      started_at: 2026-10-12T17:13:09.144251+01:00
+      baseline:
+        ref: 8778a351f34cdc8c7cc520bf2a7726b625ca40c8
+        commit: 8778a351f34cdc8c7cc520bf2a7726b625ca40c8
+        dirty: false
+      comparison:
+        ref: HEAD
+        commit: 90c22d855a1c318a5f797080b7938dc82915d46c
+        dirty: false
     - id: pyroscope-pr5759-20261012-112128Z
       path: reports/pyroscope-pr5759-20261012-112128Z/report.html
       published_at: 2026-10-12T11:33:28.512982Z
