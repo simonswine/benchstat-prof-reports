@@ -1,5 +1,17 @@
 version: 1
 reports:
+    - id: pyroscope-pr5759-20261012-112128Z
+      path: reports/pyroscope-pr5759-20261012-112128Z/report.html
+      published_at: 2026-10-12T11:33:28.512982Z
+      started_at: 2026-10-12T12:21:28.857339+01:00
+      baseline:
+        ref: path:/tmp/benchstat-pr5759.mNwBkZ/base
+        commit: 6a48a93e36d1551dd8c31ec2e27a66a731e73af3
+        dirty: true
+      comparison:
+        ref: path:/tmp/benchstat-pr5759.mNwBkZ/head
+        commit: 48a54309c908e088f965f9f78a0fbf118f17e8bb
+        dirty: false
     - id: quicksort
       path: reports/quicksort/report.html
       published_at: 2026-10-09T16:20:37.605493Z
