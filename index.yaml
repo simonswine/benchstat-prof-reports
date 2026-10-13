@@ -1,5 +1,17 @@
 version: 1
 reports:
+    - id: pyroscope-5759-main-common-100x
+      path: reports/pyroscope-5759-main-common-100x/report.html
+      published_at: 2026-10-13T11:48:36.012111Z
+      started_at: 2026-10-13T10:25:08.577532+01:00
+      baseline:
+        ref: path:/tmp/pyroscope-bench-main
+        commit: cbbf2a6053734ae00c640e16cf254808f1e5ef84
+        dirty: true
+      comparison:
+        ref: path:/tmp/pyroscope-pr5759
+        commit: 48a54309c908e088f965f9f78a0fbf118f17e8bb
+        dirty: true
     - id: 20261012-161309.144251000Z-benchmarking-gecko
       path: reports/20261012-161309.144251000Z-benchmarking-gecko/report.html
       published_at: 2026-10-12T16:15:04.292937Z
